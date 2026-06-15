@@ -7,9 +7,6 @@ if "%folder:~-1%"=="\" set "folder=%folder:~0,-1%"
 
 set "CompanyKey=HKCU\SOFTWARE\Megami\TimouYuugi"
 
-rem Add the "Directory" string value
-reg add "%CompanyKey%" /v "Directory" /t REG_SZ /d "%folder%" /f
-
 rem Add the "FullSetup" DWORD value (0)
 reg add "%CompanyKey%" /v "FullSetup" /t REG_DWORD /d /d 0 /f
 
