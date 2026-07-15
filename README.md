@@ -1,3 +1,3 @@
-#Collection of bat file for VN companies
+# Collection of .bat files
 
-**Some bat for register VN games without having to install**
+Those files help to add register key needed to play games from some VN companies
